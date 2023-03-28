@@ -136,6 +136,10 @@ zte,e8820s)
 	ucidef_set_led_netdev "wlan2g" "WiFi 2.4GHz" "white:wlan2g" "ra0"
 	ucidef_set_led_netdev "wlan5g" "WiFi 5GHz" "white:wlan5g" "rai0"
 	;;
+zte,e8820v2)
+	ucidef_set_led_netdev"sys" "SYS_LED" "$boardname:white:sys""eth0" "tx rx"
+	ucidef_set_led_default"power" "POWER_LED" "$boardname:white:power""1"
+	;;
 esac
 
 board_config_flush
