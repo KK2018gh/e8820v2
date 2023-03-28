@@ -46,12 +46,19 @@
    make download -j8
    make V=s
    ```
-
+5.添加主题:
+   ```bash
+   rm -rf  package/lean/luci-theme-argon
+   git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
+   git clone https://github.com/jerrykuku/luci-app-argon-config.git package/lean/luci-app-argon-config
+   git clone -b openwrt-18.06 https://github.com/rosywrt/luci-theme-rosy.git package/lean/luci-theme-rosy
+   git clone -b 18.06 https://github.com/kiddin9/luci-theme-edge.git package/lean/luci-theme-edge
+   ```
 如果需要重新配置：
-  ```bash
-rm -rf ./tmp && rm -rf .config
+   ```bash
+   rm -rf ./tmp && rm -rf .config
    ```
 如果需要清理缓存：
-```bash
-make clean
-```
+   ```bash
+   make clean
+   ```
