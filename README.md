@@ -46,7 +46,7 @@
    make download -j8
    make V=s
    ```
-5.添加主题:
+附加：添加主题:
    ```bash
    cd lede
    rm -rf  package/lean/luci-theme-argon
