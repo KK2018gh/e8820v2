@@ -32,7 +32,7 @@
 3. 下载源代码，更新 feeds 并选择配置
 
    ```bash
-   git clone https://github.com/MoShengQ7/lede
+   git clone https://github.com/MoShengQ7/lede.git
    cd lede
    ./scripts/feeds update -a
    ./scripts/feeds install -a
