@@ -6,7 +6,7 @@
 
 添加了OpenClah，istore
 ##2023/6/2
-添加了ASUS AC1200GU的支持
+##添加了ASUS AC1200GU的支持
 
 ## 注意
 
