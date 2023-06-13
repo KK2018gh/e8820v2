@@ -4,3 +4,4 @@ src-git routing https://github.com/coolsnowwolf/routing
 src-git telephony https://git.openwrt.org/feed/telephony.git
 src-git OpenClash https://github.com/vernesong/OpenClash
 src-git istore https://github.com/linkease/istore;main
+src-git luci-app-sms-tool https://github.com/dwj0/luci-app-sms-tool.git
