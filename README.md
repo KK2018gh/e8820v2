@@ -1,3 +1,5 @@
+FORK from https://github.com/MoShengQ7/lede.git
+
 添加了E8820V2的支持，优先使用了闭源驱动（开机不启动WIFI需要到后台手动开启）
 
 更新了大功率EEPROM但是效果有点不尽人意，可以直接在breed中升级，然后修改MAC地址即可
